@@ -13,7 +13,7 @@ import os
 import streamlit.components.v1 as components  # for textarea auto-focus
 
 # ===== Page setup =====
-st.set_page_config(page_title="LIT-RAG", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="LIT-RAG", page_icon="⚡", layout="wide")
 
 # ===== Small helpers =====
 def get_secret(name: str, default: Optional[str] = None) -> Optional[str]:
@@ -287,3 +287,4 @@ with st.container():
     )
 
     st.markdown('</div>', unsafe_allow_html=True)
+
