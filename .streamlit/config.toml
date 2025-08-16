@@ -1,0 +1,7 @@
+[theme]
+# Pick the purple from your header gradient:
+primaryColor = "#6E56CF"        # accent for buttons, radios, links, focus rings
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F3FF"
+textColor = "#0F0F0F"
+font = "sans serif"
