@@ -15,7 +15,7 @@ import streamlit.components.v1 as components  # for textarea auto-focus
 # ===== Page setup =====
 st.set_page_config(page_title="LIT-RAG", page_icon="⚡", layout="wide")
 
-# --- START: Updated code for the service unavailable message ---
+'''# --- START: Updated code for the service unavailable message ---
 st.warning(
     """
     **Important Notice: Service Temporarily Unavailable** 🚨
@@ -32,7 +32,7 @@ st.warning(
     """,
     icon="⚠️"
 )
-# --- END: Updated code for the service unavailable message ---
+# --- END: Updated code for the service unavailable message ---'''
 
 # ===== Small helpers =====
 def get_secret(name: str, default: Optional[str] = None) -> Optional[str]:
@@ -306,6 +306,7 @@ with st.container():
     )
 
     st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
